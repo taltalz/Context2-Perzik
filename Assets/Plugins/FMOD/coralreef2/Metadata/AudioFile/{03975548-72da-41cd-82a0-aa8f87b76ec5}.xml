@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{03975548-72da-41cd-82a0-aa8f87b76ec5}">
+		<property name="assetPath">
+			<value>ESM_37_Safe_Haven_minimal_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>61.72715625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23f22997-fb99-4188-8413-afcccc95b8de}</destination>
+		</relationship>
+	</object>
+</objects>

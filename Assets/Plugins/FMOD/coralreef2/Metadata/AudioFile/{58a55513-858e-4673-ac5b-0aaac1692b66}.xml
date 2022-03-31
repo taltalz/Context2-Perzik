@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{58a55513-858e-4673-ac5b-0aaac1692b66}">
+		<property name="assetPath">
+			<value>FF_WP_foley_water_dispenser_bubble_shot.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70240362811791379</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{23f22997-fb99-4188-8413-afcccc95b8de}</destination>
+		</relationship>
+	</object>
+</objects>

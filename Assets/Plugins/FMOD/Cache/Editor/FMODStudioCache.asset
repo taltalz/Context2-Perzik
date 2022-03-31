@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1170365318241046855
+--- !u!114 &-9209678890175290846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Hot_tub_ambi
+  m_Name: event:/player_ambience_boss
   m_EditorClassIdentifier: 
-  Path: event:/Hot_tub_ambi
+  Path: event:/player_ambience_boss
   Guid:
-    Data1: 1327821903
-    Data2: 1106915224
-    Data3: 1513099145
-    Data4: 740052633
+    Data1: 1745381931
+    Data2: 1257430469
+    Data3: 1077178503
+    Data4: 1545000131
   Banks:
-  - {fileID: 7722760261229896248}
+  - {fileID: 3569081315949749200}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 850
-  Length: 113114
---- !u!114 &-63241037574078767
+  MaxDistance: 20
+  Length: 68924
+--- !u!114 &-8299067257348332101
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,24 +37,283 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Brick_collision
+  m_Name: event:/World FX/house_built
   m_EditorClassIdentifier: 
-  Path: event:/Brick_collision
+  Path: event:/World FX/house_built
   Guid:
-    Data1: -477153102
-    Data2: 1140559739
-    Data3: -1627016514
-    Data4: 1391805739
+    Data1: 2123402312
+    Data2: 1094090619
+    Data3: 2002292406
+    Data4: -1342399256
   Banks:
-  - {fileID: 7722760261229896248}
+  - {fileID: 3569081315949749200}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters:
-  - {fileID: 8382417481723630568}
+  Parameters: []
   MinDistance: 1
-  MaxDistance: 150
+  MaxDistance: 20
+  Length: 1834
+--- !u!114 &-6375591194359759645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/coralreef2/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637843509102412010
+  FileSizes:
+  - Name: Desktop
+    Value: 1858
+  Exists: 1
+--- !u!114 &-5965242582574956478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player_boss_fighting
+  m_EditorClassIdentifier: 
+  Path: event:/player_boss_fighting
+  Guid:
+    Data1: -1979039069
+    Data2: 1087879736
+    Data3: 576212135
+    Data4: 1131405874
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 0
+--- !u!114 &-5647173104614920739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background & Ambience/hot_tub_ambi
+  m_EditorClassIdentifier: 
+  Path: event:/Background & Ambience/hot_tub_ambi
+  Guid:
+    Data1: -1181807049
+    Data2: 1156665405
+    Data3: 120731552
+    Data4: -1363485979
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 113114
+--- !u!114 &-5501123069354167858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience 1
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience 1
+  Guid:
+    Data1: 2127904926
+    Data2: 1277752609
+    Data3: -861021542
+    Data4: -153851508
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128234
+--- !u!114 &-5167472760106256095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_6
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_6
+  Guid:
+    Data1: 1862849282
+    Data2: 1233650060
+    Data3: 1732893833
+    Data4: 1143114807
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 30
+  Length: 6826
+--- !u!114 &-2921396508393599028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Movement_Velocity/Push
+  m_EditorClassIdentifier: 
+  Name: Push
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3385909582
+    data2: 858670885
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2844132043021363319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dripping
+  m_EditorClassIdentifier: 
+  Path: event:/Dripping
+  Guid:
+    Data1: 1643267715
+    Data2: 1111510944
+    Data3: -1035133262
+    Data4: -1705177658
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42805
+--- !u!114 &-2248461786865552678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_long_3
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_long_3
+  Guid:
+    Data1: -1685845730
+    Data2: 1141669561
+    Data3: 1841870241
+    Data4: -930235776
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6826
+--- !u!114 &-1538917219495443141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player FX/Brick_placed
+  m_EditorClassIdentifier: 
+  Path: event:/player FX/Brick_placed
+  Guid:
+    Data1: 79129758
+    Data2: 1078450714
+    Data3: -162745674
+    Data4: 1829926978
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 652
+--- !u!114 &-501630044958105852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_long_1
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_long_1
+  Guid:
+    Data1: -1375749556
+    Data2: 1186677187
+    Data3: -646756195
+    Data4: 1480184192
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8846
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,21 +327,41 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 1211990047214991407}
-  - {fileID: 7722760261229896248}
+  - {fileID: -6375591194359759645}
+  - {fileID: 3569081315949749200}
   EditorEvents:
   - {fileID: 2969310040555147882}
   - {fileID: 8664990263749065982}
-  - {fileID: -63241037574078767}
-  - {fileID: -1170365318241046855}
+  - {fileID: -5167472760106256095}
+  - {fileID: -2248461786865552678}
+  - {fileID: -9209678890175290846}
+  - {fileID: -5647173104614920739}
+  - {fileID: 2003039254003332172}
+  - {fileID: -501630044958105852}
+  - {fileID: 3420976273243902334}
+  - {fileID: 6580809455497146982}
+  - {fileID: 8281720982438956965}
+  - {fileID: -5501123069354167858}
+  - {fileID: -1538917219495443141}
+  - {fileID: 338720212385127745}
+  - {fileID: 1341226264955019751}
+  - {fileID: -2844132043021363319}
+  - {fileID: 3573867637506965342}
+  - {fileID: 8477068353914086819}
+  - {fileID: 1361118735239808058}
+  - {fileID: 4863458873651285615}
+  - {fileID: -8299067257348332101}
+  - {fileID: -5965242582574956478}
+  - {fileID: 5058747130680102183}
+  - {fileID: 2948827377041339221}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7722760261229896248}
+  - {fileID: 3569081315949749200}
   StringsBanks:
-  - {fileID: 1211990047214991407}
-  cacheTime: 637836298714270832
+  - {fileID: -6375591194359759645}
+  cacheTime: 637843509102412010
   cacheVersion: 10
---- !u!114 &1211990047214991407
+--- !u!114 &338720212385127745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,17 +370,133 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_4
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/coralreef1/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637836298714270832
-  FileSizes:
-  - Name: Desktop
-    Value: 956
-  Exists: 1
+  Path: event:/NPC_4
+  Guid:
+    Data1: -1206046266
+    Data2: 1138678693
+    Data3: 1439172798
+    Data4: -1344576158
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0.7
+  MaxDistance: 25
+  Length: 8846
+--- !u!114 &1341226264955019751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player_ambience_boot
+  m_EditorClassIdentifier: 
+  Path: event:/player_ambience_boot
+  Guid:
+    Data1: -1043211061
+    Data2: 1246430837
+    Data3: 2081915325
+    Data4: -278410943
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 9.400001
+  Length: 85000
+--- !u!114 &1361118735239808058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player FX/Hitting
+  m_EditorClassIdentifier: 
+  Path: event:/player FX/Hitting
+  Guid:
+    Data1: -1144271081
+    Data2: 1115202915
+    Data3: -238974793
+    Data4: 1625796379
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 288
+--- !u!114 &2003039254003332172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background & Ambience/MonsterScreamWave
+  m_EditorClassIdentifier: 
+  Path: event:/Background & Ambience/MonsterScreamWave
+  Guid:
+    Data1: 1877810241
+    Data2: 1329528263
+    Data3: 1101478290
+    Data4: -1969426885
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 350
+  Length: 58000
+--- !u!114 &2948827377041339221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player FX/Movement_Velocity
+  m_EditorClassIdentifier: 
+  Path: event:/player FX/Movement_Velocity
+  Guid:
+    Data1: -477153102
+    Data2: 1140559739
+    Data3: -1627016514
+    Data4: 1391805739
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2921396508393599028}
+  MinDistance: 1
+  MaxDistance: 150
+  Length: 0
 --- !u!114 &2969310040555147882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +516,7 @@ MonoBehaviour:
     Data3: 1584420792
     Data4: 1430092170
   Banks:
-  - {fileID: 7722760261229896248}
+  - {fileID: 3569081315949749200}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -129,7 +524,34 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 35
   Length: 9200
---- !u!114 &7722760261229896248
+--- !u!114 &3420976273243902334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_5
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_5
+  Guid:
+    Data1: 1915290968
+    Data2: 1274949179
+    Data3: -60420733
+    Data4: 13161187
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0.7
+  MaxDistance: 20
+  Length: 9113
+--- !u!114 &3569081315949749200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,15 +563,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/coralreef1/Build/Desktop/Master.bank
+  Path: Assets/Plugins/FMOD/coralreef2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637836298714250859
+  lastModified: 637843509102361997
   FileSizes:
   - Name: Desktop
-    Value: 4073184
+    Value: 9625312
   Exists: 1
---- !u!114 &8382417481723630568
+--- !u!114 &3573867637506965342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,21 +580,159 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Brick_collision/Force
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player FX/Sword_pick
   m_EditorClassIdentifier: 
-  Name: Force
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3385909582
-    data2: 858670885
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/player FX/Sword_pick
+  Guid:
+    Data1: 951193919
+    Data2: 1096910679
+    Data3: 1804330914
+    Data4: -1963471897
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3700
+--- !u!114 &4863458873651285615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player FX/Climbing
+  m_EditorClassIdentifier: 
+  Path: event:/player FX/Climbing
+  Guid:
+    Data1: 2139238186
+    Data2: 1276433611
+    Data3: 172826771
+    Data4: -741665926
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1440
+--- !u!114 &5058747130680102183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background & Ambience/CaveDistant
+  m_EditorClassIdentifier: 
+  Path: event:/Background & Ambience/CaveDistant
+  Guid:
+    Data1: 1004937442
+    Data2: 1229456896
+    Data3: -161732460
+    Data4: 1388788430
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 122000
+--- !u!114 &6580809455497146982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player_ambience_cave
+  m_EditorClassIdentifier: 
+  Path: event:/player_ambience_cave
+  Guid:
+    Data1: 2128282982
+    Data2: 1127660119
+    Data3: 1006134915
+    Data4: 1752607684
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128234
+--- !u!114 &8281720982438956965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPC_long_2
+  m_EditorClassIdentifier: 
+  Path: event:/NPC_long_2
+  Guid:
+    Data1: -391990895
+    Data2: 1163209454
+    Data3: 1075679633
+    Data4: -951788344
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9113
+--- !u!114 &8477068353914086819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/player_rock_climbing
+  m_EditorClassIdentifier: 
+  Path: event:/player_rock_climbing
+  Guid:
+    Data1: -833248490
+    Data2: 1184941171
+    Data3: 1683346842
+    Data4: -1558818721
+  Banks:
+  - {fileID: 3569081315949749200}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 70943
 --- !u!114 &8664990263749065982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,7 +752,7 @@ MonoBehaviour:
     Data3: 292655284
     Data4: -1920563015
   Banks:
-  - {fileID: 7722760261229896248}
+  - {fileID: 3569081315949749200}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
